@@ -1,0 +1,1 @@
+git@github.com:FedoKsu/ono-tebe-nado.git

@@ -1,1 +1,71 @@
-/* место для вашего кода */
+.big_header {
+  display: grid;
+  grid-template-columns: 388px 712px 240px;
+  grid-template-rows: 109px;
+  margin: 92px 49px 0px 51px;
+  align-items: right;
+  justify-self: start;
+  align-self: start;
+  margin-left: 209px;
+  display: block;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 388px 712px 240px;
+  grid-template-rows: 109px;
+  margin: 92px 49px 0px 51px;
+  align-items: center;
+}
+
+.header ul{
+  list-style: circle;
+  
+}
+
+.header li {
+  float: left;
+  padding-right: 20px ;
+  
+}
+
+.header li:first-child{
+  list-style: none
+}
+
+.header img{
+  width: 148px;
+  height: 105px;
+}
+
+.header__center{
+  justify-self: start;
+  align-self: start;
+  margin-left: 209px;
+  display: block;
+  
+}
+
+.header__right{
+  justify-self: end;
+  align-self: start;
+  margin-left: 209px;
+  display: block;
+  
+}
+
+.header a:hover {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+a{
+  text-decoration-skip-ink: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
