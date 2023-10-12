@@ -3,8 +3,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 92px 49px 92px 51px;
-  width: 1340px;
- 
 }
 
 .header__links-list {
@@ -26,16 +24,13 @@
 }
 
 .cover {
-  display: block;
-  background-image:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-  url("../images/cover.jpg");
+  background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
   width: 1440px;
   height: 757px;
 }
 
 .cover__text {
-  display: block;
   color: #FFF;
   font-family: Raleway;
   font-size: 100px;
@@ -44,24 +39,18 @@
   line-height: 115%; /* 115px */
   letter-spacing: 30px;
   text-transform: uppercase;
-
 }
 
-.cover__text-letter-spacing {
-  display: inline;
-  letter-spacing: 60px;
-}
-
-.cover__text__left {
+.cover_align_left {
   padding-top: 165px;
   padding-left: 50px;
+  text-align: left;
 }
 
-.cover__text__center {
+.cover_align_center {
   text-align: center;
 }
 
-.cover__text__right {
+.cover_align_right {
   text-align: right;
 }
-
