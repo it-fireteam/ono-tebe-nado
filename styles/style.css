@@ -116,3 +116,41 @@
   margin-top: 5px;
 }
 
+.cover__description{
+  display: flex;
+  margin-top: 128px;
+  justify-content:end;
+}
+
+.cover__description-text{
+  color: #FFF;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+  text-transform: uppercase;
+  word-spacing: 18px;
+  margin-right:78px ;
+  align-self: center;
+
+
+}
+
+.bet-button{
+  width: 257px;
+  height: 52px;
+  border: 1px solid #FFF;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: transparent;
+  margin-right: 50px;
+}
