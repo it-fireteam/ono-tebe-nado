@@ -154,3 +154,81 @@
   background-color: transparent;
   margin-right: 50px;
 }
+
+.lots{
+  display: block;
+  margin-top: 180px;
+  width: 1340px;
+  height: 579px;
+  flex-shrink: 0;
+  margin-left:50px;
+}
+
+.lots__title{
+  display: block;
+  color: #000;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-left: 90px;
+}
+.lots__more-link {
+  display: block;
+  color: #000;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+
+.lots__article{
+  width: 430px;
+  height: 450px;
+  flex-shrink: 0;
+  align-self: flex-start;
+  margin-right: 12.5px;
+  margin-left: 12.5px;
+}
+
+.lots__container{
+  display: flex;
+  justify-content: center;
+  margin-top: 27px;
+}
+
+.lots__link{
+  color: #FFF;
+  width: 350px;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 26.4px */
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-left: 40px;
+
+}
+
+.lots__text{
+  display: block;
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 24px */
+  width: 350px;
+  flex-shrink: 0;
+  margin-left:40px ;
+  margin-bottom: 50px ;
+}
+.article lots__lot1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), url("../images/card-lot-01.jpg");
+}
