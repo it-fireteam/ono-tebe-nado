@@ -173,7 +173,7 @@
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  padding-left: 90px;
+  padding-left: 40px;
 }
 .lots__more-link {
   display: block;
@@ -202,7 +202,7 @@
 }
 
 .lots__link{
-  color: #FFF;
+  color: #0d33ee;
   width: 350px;
   font-family: Raleway;
   font-size: 22px;
@@ -218,7 +218,7 @@
 
 .lots__text{
   display: block;
-  color: #FFF;
+  color: #fb0c0c;
   font-family: Raleway;
   font-size: 20px;
   font-style: normal;
@@ -229,6 +229,7 @@
   margin-left:40px ;
   margin-bottom: 50px ;
 }
-.article lots__lot1{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), url("../images/card-lot-01.jpg");
-}
+
+.lots__lot1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), url("../images/card-lot-01.jpg"));
+ }
